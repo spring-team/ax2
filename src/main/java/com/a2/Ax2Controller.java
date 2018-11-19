@@ -7,9 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 class Ax2Controller {
 
-	@GetMapping("/")
-	public String root() {
-		return "Hello demo on Wed! I'm served by " + getClass().getName();
+	@GetMapping("/")public String root
+		
+		
+		
+		
+		
+		() {
+		return "Hello format demo on Wed! I'm served by " + getClass().getName();
 	}
 
 	@GetMapping("hello/{name}")
